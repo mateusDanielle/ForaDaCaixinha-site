@@ -1,14 +1,15 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import GlobalStyle from './styles/global';
 
-import Maintenance from './pages/Maintenance';
+import Routes from './routes';
 
 const App: React.FC = () => (
-  <>
-    <Maintenance />
+  <Router>
+    <Routes />
     <GlobalStyle />
-  </>
+  </Router>
 );
 
 export default App;
