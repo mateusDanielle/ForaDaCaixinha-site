@@ -54,19 +54,19 @@ export default createGlobalStyle`
     font-style: normal;
   }
 
-@font-face {
-  font-family: 'Poppins';
-  src: url('fonts/Poppins-ThinItalic.otf') format('otf');
-  font-weight: 100;
-  font-style: italic;
-}
+  @font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-ThinItalic.otf') format('otf');
+    font-weight: 100;
+    font-style: italic;
+  }
 
-@font-face {
-  font-family: 'Poppins';
-  src: url('fonts/Poppins-LightItalic.otf') format('otf');
-  font-weight: 300;
-  font-style: italic;
-}
+  @font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-LightItalic.otf') format('otf');
+    font-weight: 300;
+    font-style: italic;
+  }
 
   body, input, button {
     font-family: 'Poppins', serif;
@@ -77,6 +77,7 @@ export default createGlobalStyle`
 
   h1, h2, h3, h4, h5, h6, strong {
     font-weight: bold;
+    text-align: center;
   }
 
   button {
