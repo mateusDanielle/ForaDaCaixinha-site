@@ -29,7 +29,9 @@ const Maintenance: React.FC = () => {
             <h2>Entrando numa fria</h2>
           </div>
           <div>
-            <h3>Clique, baixe agora e passe vergonha com seus amigos:</h3>
+            <a href="http://onelink.to/choose1app">
+              <h3>Clique, baixe agora e passe vergonha com seus amigos:</h3>
+            </a>
             <Download>
               <a href="https://apps.apple.com/br/app/id1533889623">
                 <Apple />
