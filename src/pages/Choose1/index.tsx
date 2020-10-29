@@ -29,7 +29,7 @@ const Maintenance: React.FC = () => {
             <h2>Entrando numa fria</h2>
           </div>
           <div>
-            <h3>Baixe agora e passe vergonha com seus amigos:</h3>
+            <h3>Clique, baixe agora e passe vergonha com seus amigos:</h3>
             <Download>
               <a href="https://apps.apple.com/br/app/id1533889623">
                 <Apple />
